@@ -20,7 +20,6 @@ public class SkipListMap<K, V> extends AbstractMap<K,V>
 
     private static final Integer SKIPLIST_MAXLEVEL = 32;
     private static final Double SKIPLIST_P = 0.25;
-    int aa = 1;
 
     /**
      * The comparator used to maintain order in this skip list-map, or
