@@ -1,5 +1,8 @@
 import com.hrhrng.lordis.datastructure.bottom.SkipListMap;
+import com.hrhrng.lordis.datastructure.bottom.test;
 import org.junit.Test;
+
+import java.util.TreeMap;
 
 public class SkipListMapTest {
     @Test
@@ -20,5 +23,10 @@ public class SkipListMapTest {
             Integer r = skipListMap.get(i);
             System.out.print(r+" ");
         }
+    }
+
+
+    @Test
+    public void t () {
     }
 }
